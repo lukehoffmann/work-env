@@ -9,12 +9,14 @@
             "command": "${workspaceRoot}${/}bin${/}today.sh",
             "runOptions": {
                 "runOn": "folderOpen"
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "tomorrow",
             "type": "shell",
             "command": "${workspaceRoot}${/}bin${/}tomorrow.sh",
+            "problemMatcher": []
         }
     ]
 }
