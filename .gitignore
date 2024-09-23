@@ -1,5 +1,7 @@
 *.md
 !README.md
 
+*.log
+
 .vscode/
 !.vscode/tasks.json
