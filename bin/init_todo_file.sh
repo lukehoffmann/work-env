@@ -8,7 +8,7 @@ date=$1
 echo "Setting up To Do for $(date -d "${date}" +"%A, %d %B %Y" )"
 
 root="."
-file="${root}/todo-$(date -d "${date}" -Idate).md"
+file="${root}/$(date -d "${date}" +"%Y" )/$(date -d "${date}" +"%m" )/todo-$(date -d "${date}" -Idate).md"
 if [ ! -f $file ]; then
     echo "Creating file ${file}"
     echo "# To Do:
