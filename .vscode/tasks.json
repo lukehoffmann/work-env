@@ -17,6 +17,12 @@
             "type": "shell",
             "command": "${workspaceRoot}${/}bin${/}tomorrow.sh",
             "problemMatcher": []
+        },
+        {
+            "label": "monday",
+            "type": "shell",
+            "command": "${workspaceRoot}${/}bin${/}monday.sh",
+            "problemMatcher": []
         }
     ]
 }
